@@ -1,0 +1,277 @@
+.container{
+  display: grid;
+
+  /* columns going across */
+  grid-template-columns: 1fr 1fr 3fr 1fr 1fr;
+
+  /* rows going down */
+  grid-template-rows: 60px auto;
+
+  /* grid-row-gap: 5px; */
+  width: 100vw;
+}
+
+footer {
+  padding-top: 150px;
+  padding-bottom: 50px;
+  grid-column: 2 / span 3;
+  grid-row: 15 / span 1;
+}
+
+#footer-text {
+  text-align: center;
+}
+
+h1#main {
+  font-family: 'Dancing Script', cursive;
+  font-size: 55px;
+  font-weight: 700;
+  text-align: center;
+  margin: 40px 0px 0px 0px;
+  padding: 0px;
+}
+
+h2#sub {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  padding: 0px;
+}
+
+h3.post-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  margin: 15px 0px 0px 0px;
+}
+
+h3.light {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  margin: 0px 0px 10px 0px;
+}
+
+h3.post-body {
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+}
+
+#main-header {
+  grid-column: 2 / span 3;
+  grid-row: 2 / span 1;
+}
+
+#post1 {
+  grid-column: 2 / span 3;
+  grid-row: 3 / span 1;
+}
+
+#help {
+  grid-column: 2 / span 2;
+  grid-row: 5 / span 1;
+  margin-left: 40px;
+}
+
+.trans
+{
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+.top
+{
+	display: flex;
+	margin: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#pics1
+{
+  grid-column: 2 / span 3;
+  grid-row: 4 / span 1;
+}
+
+.top ul
+{
+	list-style: none;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	box-sizing: border-box;
+}
+.top ul li
+{
+	position: relative;
+	float: left;
+	width: 15%;
+	height: 15%;
+	overflow: hidden;
+  margin-right: 5px;
+}
+
+#pics1 ul li
+{
+	width: 25%;
+	height: 25%;
+}
+
+#pics2 ul li
+{
+	width: 20%;
+	height: 20%;
+}
+
+#pics4 ul li
+{
+	width: 30%;
+	height: 30%;
+}
+
+.top ul li::before
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	content: '';
+	color: white;
+	opacity: 0;
+	text-align: center;
+	box-sizing: border-box;
+	pointer-events: none;
+	transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-ms-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+}
+
+.top ul li:hover::before
+{
+	opacity: 0;
+	background-color: rgba(0,0,0,0.90);
+}
+.top ul li img
+{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.lightbox
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0);
+	z-index: 999;
+	opacity: 0;
+	pointer-events: none;
+}
+.lightbox img
+{
+	max-width: 90%;
+	max-height: 80%;
+	position: relative;
+	top: -100%;
+	/* Transition */
+	transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-webkit-transition: all 1s ease;
+}
+.lightbox:target
+{
+	outline: none;
+	top: 0;
+	opacity: 1;
+	pointer-events: auto;
+	transition: all 1.2s ease;
+	-moz-transition: all 1.2s ease;
+	-ms-transition: all 1.2s ease;
+	-o-transition: all 1.2s ease;
+	-webkit-transition: all 1.2s ease;
+}
+.lightbox:target img
+{
+	top: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 70px;
+    padding: 0;
+}
+
+#after1{
+  grid-column: 2 / span 3;
+  grid-row: 6 / span 1;
+}
+
+#post2 {
+  grid-column: 2 / span 3;
+  grid-row: 7 / span 1;
+}
+
+#pics2
+{
+  grid-column: 2 / span 3;
+  grid-row: 8 / span 1;
+}
+
+#after2 {
+  grid-column: 2 / span 3;
+  grid-row: 9 / span 1;
+}
+
+#post3 {
+  grid-column: 2 / span 3;
+  grid-row: 10 / span 1;
+}
+
+#pics3
+{
+  grid-column: 1 / span 5;
+  grid-row: 11 / span 1;
+}
+
+#after3 {
+  grid-column: 2 / span 3;
+  grid-row: 12 / span 1;
+}
+
+#post4 {
+  grid-column: 2 / span 3;
+  grid-row: 13 / span 1;
+}
+
+#pics4
+{
+  grid-column: 2 / span 3;
+  grid-row: 14 / span 1;
+}

@@ -15,7 +15,7 @@ footer {
   padding-top: 150px;
   padding-bottom: 50px;
   grid-column: 2 / span 3;
-  grid-row: 15 / span 1;
+  grid-row: 27 / span 1;
 }
 
 #footer-text {
@@ -120,22 +120,55 @@ h3.post-body {
   margin-right: 5px;
 }
 
+/* 3 pics */
 #pics1 ul li
 {
 	width: 25%;
 	height: 25%;
 }
 
+/* 4 pics */
 #pics2 ul li
 {
 	width: 20%;
 	height: 20%;
 }
 
+/* 2 pics */
 #pics4 ul li
 {
 	width: 30%;
 	height: 30%;
+}
+
+/* 4 pics */
+#pics5 ul li
+{
+	width: 20%;
+	height: 20%;
+}
+
+/* 4 pics
+#pics6 ul li
+{
+	width: 20%;
+	height: 20%;
+}
+
+*/
+
+/* 4 pics */
+#pics7 ul li
+{
+	width: 22%;
+	height: 22%;
+}
+
+/* 4 pics */
+#pics8 ul li
+{
+	width: 23%;
+	height: 23%;
 }
 
 .top ul li::before
@@ -274,4 +307,68 @@ hr {
 {
   grid-column: 2 / span 3;
   grid-row: 14 / span 1;
+}
+
+#after4 {
+  grid-column: 2 / span 3;
+  grid-row: 15 / span 1;
+}
+
+#post5 {
+  grid-column: 2 / span 3;
+  grid-row: 16 / span 1;
+}
+
+#pics5
+{
+  grid-column: 2 / span 3;
+  grid-row: 17 / span 1;
+}
+
+#after5 {
+  grid-column: 2 / span 3;
+  grid-row: 18 / span 1;
+}
+
+#post6 {
+  grid-column: 2 / span 3;
+  grid-row: 19 / span 1;
+}
+
+#pics6
+{
+  grid-column: 1 / span 5;
+  grid-row: 20 / span 1;
+}
+
+#after6 {
+  grid-column: 2 / span 3;
+  grid-row: 21 / span 1;
+}
+
+#post7 {
+  grid-column: 2 / span 3;
+  grid-row: 22 / span 1;
+}
+
+#pics7
+{
+  grid-column: 2 / span 3;
+  grid-row: 23 / span 1;
+}
+
+#after7 {
+  grid-column: 2 / span 3;
+  grid-row: 24 / span 1;
+}
+
+#post8 {
+  grid-column: 2 / span 3;
+  grid-row: 25 / span 1;
+}
+
+#pics8
+{
+  grid-column: 2 / span 3;
+  grid-row: 26 / span 1;
 }

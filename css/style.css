@@ -15,7 +15,7 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   grid-column: 2 / span 3;
-  grid-row: 39 / span 1;
+  grid-row: 58 / span 1;
 }
 
 #footer-text {
@@ -24,7 +24,7 @@ footer {
 
 #backtotop {
   grid-column: 2 / span 3;
-  grid-row: 38 / span 1;
+  grid-row: 57 / span 1;
 }
 
 #backtotop-text {
@@ -208,6 +208,42 @@ h3.post-link {
 {
 	width: 18%;
 	height: 18%;
+}
+
+#pics12 ul li
+{
+	width: 30%;
+	height: 30%;
+}
+
+#pics13 ul li
+{
+	width: 18%;
+	height: 18%;
+}
+
+#pics14 ul li
+{
+	width: 25%;
+	height: 25%;
+}
+
+#pics15 ul li
+{
+	width: 30%;
+	height: 30%;
+}
+
+#pics16 ul li
+{
+	width: 13%;
+	height: 13%;
+}
+
+#pics17 ul li
+{
+	width: 25%;
+	height: 25%;
 }
 
 #pics11pano ul li
@@ -502,4 +538,106 @@ hr {
 {
   grid-column: 1 / span 5;
   grid-row: 37 / span 1;
+}
+
+#after11 {
+  grid-column: 2 / span 3;
+  grid-row: 38 / span 1;
+}
+
+/* Big update 3-9 */
+#post12 {
+  grid-column: 2 / span 3;
+  grid-row: 39 / span 1;
+}
+
+#pics12
+{
+  grid-column: 2 / span 3;
+  grid-row: 40 / span 1;
+}
+
+#after12 {
+  grid-column: 2 / span 3;
+  grid-row: 41 / span 1;
+}
+
+#post13 {
+  grid-column: 2 / span 3;
+  grid-row: 42 / span 1;
+}
+
+#pics13
+{
+  grid-column: 1 / span 5;
+  grid-row: 43 / span 1;
+}
+
+#after13 {
+  grid-column: 2 / span 3;
+  grid-row: 44 / span 1;
+}
+
+#post14 {
+  grid-column: 2 / span 3;
+  grid-row: 45 / span 1;
+}
+
+#pics14
+{
+  grid-column: 2 / span 3;
+  grid-row: 46 / span 1;
+}
+
+#after14 {
+  grid-column: 2 / span 3;
+  grid-row: 47 / span 1;
+}
+
+#post15 {
+  grid-column: 2 / span 3;
+  grid-row: 48 / span 1;
+}
+
+#pics15
+{
+  grid-column: 2 / span 3;
+  grid-row: 49 / span 1;
+}
+
+#after15 {
+  grid-column: 2 / span 3;
+  grid-row: 50 / span 1;
+}
+
+#post16 {
+  grid-column: 2 / span 3;
+  grid-row: 51 / span 1;
+}
+
+#pics16
+{
+  grid-column: 1 / span 5;
+  grid-row: 52 / span 1;
+}
+
+#after16 {
+  grid-column: 2 / span 3;
+  grid-row: 53 / span 1;
+}
+
+#post17 {
+  grid-column: 2 / span 3;
+  grid-row: 54 / span 1;
+}
+
+#pics17
+{
+  grid-column: 2 / span 3;
+  grid-row: 55 / span 1;
+}
+
+#after17 {
+  grid-column: 2 / span 3;
+  grid-row: 56 / span 1;
 }

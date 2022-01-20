@@ -15,7 +15,7 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   grid-column: 2 / span 3;
-  grid-row: 58 / span 1;
+  grid-row: 64 / span 1;
 }
 
 #footer-text {
@@ -24,7 +24,7 @@ footer {
 
 #backtotop {
   grid-column: 2 / span 3;
-  grid-row: 57 / span 1;
+  grid-row: 63 / span 1;
 }
 
 #backtotop-text {
@@ -131,7 +131,7 @@ h3.post-link {
 
 #intro-pic ul li {
   width: 60%;
-  height: 60%;
+  height: 100%;
   margin-top: 30px;
   margin-left: 30px;
   vertical-align: middle;
@@ -142,28 +142,28 @@ h3.post-link {
 #pics1 ul li
 {
 	width: 25%;
-	height: 25%;
+	height: 100%;
 }
 
 /* 4 pics */
 #pics2 ul li
 {
 	width: 20%;
-	height: 20%;
+	height: 100%;
 }
 
 /* 2 pics */
 #pics4 ul li
 {
 	width: 30%;
-	height: 30%;
+	height: 100%;
 }
 
 /* 4 pics */
 #pics5 ul li
 {
 	width: 20%;
-	height: 20%;
+	height: 100%;
 }
 
 /* 4 pics
@@ -179,76 +179,89 @@ h3.post-link {
 #pics7 ul li
 {
 	width: 22%;
-	height: 22%;
+	height: 100%;
 }
 
 /* 4 pics */
 #pics8 ul li
 {
 	width: 23%;
-	height: 23%;
+	height: 100%;
 }
 
 /* 5 pics */
 #pics9 ul li
 {
 	width: 18%;
-	height: 18%;
+	height: 100%;
 }
 
 /* 5 pics */
 #pics10 ul li
 {
 	width: 16%;
-	height: 16%;
+	height: 100%;
 }
 
 /* 5 pics */
 #pics11 ul li
 {
 	width: 18%;
-	height: 18%;
+	height: 100%;
 }
 
 #pics12 ul li
 {
 	width: 30%;
-	height: 30%;
+	height: 100%;
 }
 
 #pics13 ul li
 {
 	width: 18%;
-	height: 18%;
+	height: 100%;
 }
 
 #pics14 ul li
 {
 	width: 25%;
-	height: 25%;
+	height: 100%;
 }
 
 #pics15 ul li
 {
 	width: 30%;
-	height: 30%;
+	height: 100%;
 }
 
 #pics16 ul li
 {
 	width: 13%;
-	height: 13%;
+	height: 100%;
 }
 
 #pics17 ul li
 {
 	width: 25%;
-	height: 25%;
+	height: 100%;
+}
+
+#pics18 ul li
+{
+	width: 13%;
+	height: 100%;
+}
+
+#pics19 ul li
+{
+	width: 13%;
+	height: 100%;
 }
 
 #pics11pano ul li
 {
   width: 92%;
+  height: 100%;
 }
 
 .top ul li::before
@@ -640,4 +653,37 @@ hr {
 #after17 {
   grid-column: 2 / span 3;
   grid-row: 56 / span 1;
+}
+
+/* new from og blog */
+#post18 {
+  grid-column: 2 / span 3;
+  grid-row: 57 / span 1;
+}
+
+#pics18
+{
+  grid-column: 1 / span 5;
+  grid-row: 58 / span 1;
+}
+
+#after18 {
+  grid-column: 2 / span 3;
+  grid-row: 59 / span 1;
+}
+
+#post19 {
+  grid-column: 2 / span 3;
+  grid-row: 60 / span 1;
+}
+
+#pics19
+{
+  grid-column: 1 / span 5;
+  grid-row: 61 / span 1;
+}
+
+#after19 {
+  grid-column: 2 / span 3;
+  grid-row: 62 / span 1;
 }
